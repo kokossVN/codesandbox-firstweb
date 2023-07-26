@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>arch</title>
+	<style>
+		*{
+			text-align: center;
+		}
+		a{
+			text-decoration: none;
+			color: blue;
+		}
+		a:hover{
+			color: cyan;
+		}
+		p{
+			font-size: 20px;
+		}
+		span{
+			font-size: 18px;
+		}
+		.head-list{
+			position: fixed;
+		}
+		.head-list > ul{
+			list-style-type: none;
+			font-size: 25px;
+		}
+		.head-list > ul > li{
+			text-align: left;
+		}
+		/* This code made by w3school.com */
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 4px;
+			justify-content: center;
+		}
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+			flex: 25%;
+			max-width: 30%;
+			padding: 0 4px;
+		}
+
+		.column img {
+			margin-top: 8px;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+			.column {
+			flex: 50%;
+			max-width: 50%;
+		}
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+			.column {
+			flex: 100%;
+			max-width: 100%;
+		}
+		}
+	</style>
+</head>
+<body>
+	<div class="head-list">
+		<ul>
+			<li>
+				<a
+					href="../index.html"
+					>
+					Back To Main
+				</a>
+			</li>
+			<li>
+				<a
+					href="#ubuntu"
+					>
+					Ubuntu
+				</a>
+			</li>
+			<li>
+				<a
+					href="#arch"
+					>
+				Arch Linux
+				</a>
+			</li>
+		</ul>
+	</div>
+	<h1 id="ubuntu">Linux Story</h1>
+	<h2>Ubuntu</h2>
+	<p>
+	Bắt đầu sử dụng linux từ đầu 2023 nhưng những kiến thức được biết về linux từ năm 2017
+	<br> Sau khi nghịch ngu xóa cả windows và bộ cài ubuntu trên ổ cứng
+	</p>
+	<img
+		src="image/nghich_ngu.jpg"
+		alt="luc do t ngu vl"
+		width="480"
+		height="auto"
+	/><br>
+	<span>
+		<i>
+			Lúc đó nghịch ngu thực sư
+		</i>
+	</span>
+	<br>
+	<p>
+	Sau 1 ngày thức trắng, mượn được laptop của người thân và
+	đọc thêm tài liệu về boot on lan, tôi đã cài được ubuntu vào laptop bằng PXE 
+	và bắt đầu tập sử dụng linux
+	</p>
+	<div class="row">
+		<div class="column">
+			<img 
+				src="image/het_ngu.jpg"
+				alt="cai linux den sang"
+				width="480"
+				height="auto"
+			/><br>
+			<span>
+				<i>
+					Thực xuyên đêm tìm cách chạy cài ubuntu bằng PXE
+				</i>
+			</span>
+		</div>
+		<div class="column">
+			<img 
+				src="image/ubuntu_after_mod.jpg"
+				alt="Ubuntu sau khi customize"
+				width="720"
+				height="auto"
+			/>
+		<br>
+			<span>
+				<i>
+					Ubuntu sau khi được customize
+				</i>
+			</span>
+			<br>
+			<img
+				src="image/ubuntu.jpg"
+				alt="Neofetch ubuntu"
+				width="720"
+				height="auto"
+			/>
+			<span>
+				<i>
+					Ubuntu neofetch
+				</i>
+			</span>
+		</div>
+	</div>
+	<p>
+		Sau 1 khoảng thời gian sử dụng với 1 đống bug không thể fix,
+		và việc chưa có kỹ năng sử dụng Linux trong việc học tập.
+		<br> Tôi đã quá nản khi không thể fix bug kịp để thực hành nên
+		Ngôi cài Archlinux để tìm hiểu chuyên sau hơn nữa về linux
+		<!-- WTF best of lý do -->
+	</p>
+	<h2 id="arch">Arch Linux</h2>
+	<p>
+		Bắt đầu sử dụng từ tháng 5/2023
+		sau khi bất lực khi ubuntu liên tục bị bug khi thực hành
+		khiến kết quả không được tốt
+	</p>
+	<p>
+		Tôi quyết định sử dụng Arch Linux như
+		một môi trường mới và ít tính năng hơn để tối ưu 
+		cho việc fix bug và học tâp
+	</p>
+	<img
+		src="image/arch.jpg"
+		width="1280"
+		height="auto"
+	/><br>
+	<span>
+		<i>
+			Arch Linux neofetch
+		</i>
+	</span>
+	<p>
+	Chắc chắn nó không đơn giản xíu nào
+	</p>
+	<img
+		src="image/fixthissht.jpg"
+		alt="fix this shjt"
+		width="1280"
+		height="auto"
+	/><br>
+	<span>
+		<i>
+			how to fix this ****
+		</i>
+	</span>
+	</body>
+</html>
