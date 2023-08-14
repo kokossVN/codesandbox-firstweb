@@ -6,18 +6,123 @@
 	<title>index</title>
 	<link rel="stylesheet" href="">
 	<style>
+		img {
+			width: 70%;
+			height: auto;
+		}
+		.warp-row {
+			display: flex;
+		}
 	</style>
 </head>
 <body>
 	<a href="old/index.html"
 		>
 	back</a>
-	<h2> Phân tích trang web 
+	<h1> Phân tích trang web 
 		<a href="https://www.riotgames.com/en"
 			target="_blank">Riot Games</a>
-	</h2>
-	<script src="">
-
-	</script>
+	</h1>
+	<div id="n-header">
+		<h2>Header + Title</h2>
+		<img src="assets/pic1.png">
+		<div class="warp-row">
+			<div class="warp-col">
+				<h3>Header</h3>
+				<ul>
+					<li>Left </li>
+					<ul>
+						<li>Div (logo-nav-toggle)</li>
+							<ul>
+								<li>h1 > input:checkbox > div (navigation)</li>
+								<ul>
+									<li> div (nav-games)</li>
+									<li> div (nav-forge)</li>
+									<li> div (nav-esports)</li>
+									<li> div (nav-entertainment)</li>
+									<li> div (nav-business)</li>
+									<ul>
+										<li>ul>li>a</li>
+									</ul>
+									<li> div(nav-valorant-news)</li>
+									<li> div(nav-lor-news)</li>
+									<ul>
+										<li>a > img (logo)</li>
+										<li>p|span</li>
+									</ul>
+								</ul>
+						</ul>
+						<li> a > img</li>
+						<li> div(logo-nav-list)</li>
+						<ul>
+							<li> a</li>
+							<li> ul > li</li>
+							<ul>
+								<li> ul > li > a</li>
+							</ul>
+						</ul>
+					</ul>
+					<li> Right</li>
+					<ul>
+						<li> button</li>
+						<li> div(search)</li>
+						<ul>
+							<li>input:text</li>
+							<li>button</li>
+						</ul>
+						<li> div(language-toggle)</li>
+						<ul>
+						<li>input:checkbox</li>
+						<li>div(lang-toggle hidden)</li>
+						<ul>
+							<li>ul > li > a</li>
+						</ul>
+						</ul>
+					</ul>
+				</ul>
+			</div>
+			<div class="warp-col">
+				<h3> Title</h3>
+				<ul>
+					<li> img</li>
+					<li> h3</li>
+					<li> p|span</li>
+					<li> button</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="news">
+		<h2>News</h2>
+		<img src="assets/pic2.png">
+		<ul>
+			<li> h2</li>
+			<li> button</li>
+			<li>div(news-main)</li>
+			<ul>
+				<li>a</li>
+				<li>img</li>
+				<li>h3</li>
+				<li>p|span</li>
+			</ul>
+			<li>div(news-other-warp)</li>
+			<ul>
+				<li> div </li>
+				<li> div </li>
+				<li> div </li>
+				<li> div </li>
+				<ul>
+					<li> img</li>
+					<li> div(content)</li>	
+					<ul>
+						<li>a </li>
+						<li>h4 </li>
+						<li>span </li>
+					</ul>
+				</ul>
+			</ul>
+		</ul>
+	</div>
+	<div class="our-easport"
 </body>
 </html>
