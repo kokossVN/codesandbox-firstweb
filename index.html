@@ -4,240 +4,181 @@
 	<meta charset=UTF-8>
 	<meta name=viewport content=width=device-width, initial-scale=1.0>
 	<title>index</title>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<a href="old/index.html"> old</a>
+	<a href="old/index.html"> back</a>
 	<h1>
-		Phân tích trang <a href="https://kde.org" target="_blank">kde.org</a>
+		Phân tích trang web 
+		<a href="https://rayark.com/en/" target="_blank">Rayark</a>
 	</h1>
+
 	<div>
-		<h2> navigation bar + fixed bar </h2>
+		<h2> navigation,slide-bar,banner </h2>
 		<img src="assets/pic1.png">
-		<div class="warp-row">
-			<div class="warp-col">
-				<h3>nav-bar</h3>
+		<div class="row">
+			<div class="col">
+				<h3>navigation</h3>
 				<ul>
-					<li> h1(logo) </li>
-					<li> div(menu-toggle) </li>
+					<li> a > h1 (logo)</li>
+					<li> div(nav-list row)</li>
 					<ul>
-						<li> ul > li > a </li>
-						<li> input:text </li>
-						<li> input:checkbox </li>
+						<li> ul > li > a</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>slide-bar-left</h3>
+				<ul>
+					<li> p</li>
+					<li> div(row)</li>
+					<ul>
+						<li> ul</li>
 						<ul>
-							<li> ul > li </li>
+							<li> li > a > img </li>
+							<li> li > a > img </li>
+							<li> li > a > img </li>
+							<li> li > a > img </li>
 						</ul>
 					</ul>
 				</ul>
 			</div>
-			<div class="warp-col">
-				<h3>fixed-bar</h3>
+			<div class="col">
+				<h3>slide-bar-right</h3>
 				<ul>
-					<li> img > a </li>
-					<li> button </li>
+					<li> ul > li > a</li>
+				</ul>
+			</div>
+			<div class="col">
+				<h3>banner</h3>
+				<ul>
+					<li> div(main-banner)</li>
+					<ul>
+						<li>img</li>
+						<li>button</li>
+						<li>ul </li>
+						<ul>
+							<li> li > button </li>
+							<li> li > button </li>
+							<li> ... </li>
+						</ul>
+					</ul>
+					<li> button</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div>
-		<h2> main-title </h2>
-		<img src="assets/pic2.png">
-		<ul>
-			<li>h2</li>
-			<li>p</li>
-			<li>img</li>
-			<li>div(warp-btn)</li>
-			<ul>
-				<li>button</li>
-				<li>button</li>
-				<li>button</li>
-			</ul>
-		</ul>
-	</div>
-	<div>
-		<h2> apps </h2>
-		<img src="assets/pic3.png">
-		<ul>
-			<li> h2</li>
-			<li> h3</li>
-			<li> p</li>
-			<li> a</li>
-			<li> div(row)</li>
-			<ul>
-				<li> div </li>
-				<li> div </li>
-				<li> div </li>
-				<li> div </li>
-				<li> div </li>
-				<ul>
-					<li> a > img </li>
-					<li> div(content) </li>
-					<ul>
-						<li> a > img </li>
-						<li> a > h4 </li>
-						<li> p </li>
-					</ul>
-				</ul>
-			</ul>
-		</ul>
-	</div>
-	<div>
-		<h2> devices </h2>
-		<img src="assets/pic4.png">
-		<ul>
-			<li> h2 </li>
-			<li> h3 </li>
-			<li> div(warp) </li>
-			<ul>
-				<li> div </li>
-				<li> div </li>
-				<li> div </li>
-				<li> div </li>
-				<ul>
-					<li>a > img</li>
-					<li>a</li>
-					<li>p</li>
-				</ul>
-				<li> p > a</li>
-			</ul>
-		</ul>
-	</div>
+
 	<div>
 		<h2> news </h2>
-		<img src="assets/pic5.png">
+		<img src="assets/pic2.png">
 		<ul>
-			<li> h2</li>
-			<li> div(warp)</li>
+			<li> div(title)</li>
 			<ul>
-				<li> div</li>
-				<li> div</li>
-				<li> div</li>
-				<li> div</li>
-				<ul>
-					<li> span</li>
-					<li> h4</li>
-					<li> p</li>
-					<li> a</li>
-				</ul>
-				<li> a > img</li>
+				<li>h2</li>
 			</ul>
+			<li>div(warp)</li>
+			<ul>
+				<li> div </li>
+				<li> div </li>
+				<li> div </li>
+				<ul>
+					<li> a > img</li>
+					<li> div (date-time)</li>
+					<ul>
+						<li>p</li>
+						<li>span</li>
+					</ul>
+					<li>a > h4</li>
+					<li>a > p > img</li>
+				</ul>
+			</ul>
+		<li> button</li>
 		</ul>
 	</div>
+
 	<div>
-		<h2> project </h2>
-		<img src="assets/pic6.png">
+		<h2> games </h2>
+		<img src="assets/pic3.png">
 		<ul>
-			<li> a > img</li>
-			<li> div(pj-content)</li>
+			<li>div(banner)</li>
+			<ul>
+				<li> img</li>
+				<li>ul </li>
+				<ul>
+					<li> li > button </li>
+					<li> li > button </li>
+					<li> ... </li>
+				</ul>
+			</ul>
+			<li>div(text)</li>
+			<ul>
+				<li> h3</li>
+				<li> p</li>
+			</ul>
+		<li>button</li>
+		</ul>
+	</div>
+
+	<div>
+		<h2> company </h2>
+		<img src="assets/pic4.png">
+		<ul>
+			<li>div(title)</li>
 			<ul>
 				<li> h2</li>
-				<li> div(warp)</li>
-				<ul>
-					<li> div</li>
-					<li> div</li>
-					<ul>
-						<li> h3</li>
-						<li> p</li>
-						<li> a</li>
-					</ul>
-				</ul>
+				<li> div(decor)</li>
+			</ul>
+			<li>div(img)</li>
+			<ul>
+				<li>img</li>
+			</ul>
+			<li>div(deteil)</li>
+			<ul>
+				<li> p </li>
+				<li> p > b > u > a > img </li>
 			</ul>
 		</ul>
 	</div>
-	<div>
-		<h2> community </h2>
-		<img src="assets/pic7.png">
-		<ul>
-			<li> h2</li>
-			<li> h3</li>
-			<li> p</li>
-			<li> div</li>
-			<ul>
-				<li> button</li>
-				<li> button</li>
-			</ul>
-			<li> div(warp)</li>
-			<ul>
-				<li>div(img)</li>
-				<ul>
-					<li> img</li>
-					<li> p > a </li>
-				</ul>
-				<li> img</li>
-			</ul>
-		</ul>
-	</div>
+
 	<div>
 		<h2> footer </h2>
-		<img src="assets/pic8.png">
-		<div class="warp-row">
-			<div class="warp-col">
-				<h3> patrons</h3>
+		<img src="assets/pic5.png">
+		<ul>
+			<li> div(about)</li>
+			<ul>
+				<li> a < img</li>
+				<li> p </li>
+				<li> a > span > img </li>
+			</ul>
+			<li>div(footer-navigation)</li>
+			<ul>
+				<li> div</li>
+				<li> div</li>
+				<li> div</li>
 				<ul>
-					<li> ul</li>
-					<ul>
-						<li> li > img </li>
-						<li> li > img </li>
-						<li> li > img </li>
-						<li> li > img </li>
-					</ul>
+					<li>ul > li > a</li>
 				</ul>
-			</div>
-			<div class="warp-col">
-				<h3> donate</h3>
+			</ul>
+			<li> div(footer-other)</li>
+			<ul>
+				<li> div</li>
 				<ul>
-					<li>div(warp)</li>
-					<ul>
-						<li> p > a</li>
-						<li> form </li>
-						<ul>
-							<li> input:text</li>
-							<li> p</li>
-							<li> button</li>
-						</ul>
-						<li> a</li>
-					</ul>
-					<li> div</li>
-					<ul>
-						<li> h4</li>
-						<li> p</li>
-						<li> button</li>
-					</ul>
+					<li> h5</li>
+					<li> a</li>
 				</ul>
-			</div>
-			<div class="warp-col">
-				<h3> navigation</h3>
+				<li> div(social)</li>
 				<ul>
-					<li> div(warp)</li>
-					<ul>
-						<li> div</li>
-						<li> div</li>
-						<li> div</li>
-						<li> div</li>
-						<li> div</li>
-						<li> div</li>
-						<li> div</li>
-						<ul>
-							<li> h5</li>
-							<li> ul > li > a</li>
-						</ul>
-					</ul>
+					<li> ul > li > a </li>
 				</ul>
-			</div>
-			<div class="warp-col">
-				<h3> social</h3>
-				<ul>
-					<li> ul > li > a > img</li>
-				</ul>
-			</div>
-			<div class="warp-col">
-				<h3> about</h3>
-				<ul>
-					<li> p > a</li>
-					<li> p > a</li>
-				</ul>
-			</div>
-		</div>
+			</ul>
+			<li>div(botton-footer)</li>
+			<ul>
+				<li> p</li>
+			</ul>
+		</ul>
 	</div>
+	<a href=""> Tiếp theo > </a>
 </body>
 </html>

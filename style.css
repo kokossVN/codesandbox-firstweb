@@ -1,12 +1,7 @@
-img {
-	width: 75vw;
-}
-
-
-.warp-row {
+.row {
 	display: flex;
 	flex-wrap: wrap;
 }
-.warp-col {
-	padding-left: 20px;
+.col {
+	margin-left: 10px;
 }
