@@ -1,7 +1,17 @@
-.row {
-	display: flex;
-	flex-wrap: wrap;
+* {
+	margin: 0;
 }
-.col {
-	margin-left: 10px;
+.main-div {
+	padding-left: 30px;
+}
+h1.header {
+	text-align: center;
+}
+.contener {
+	display: flex;
+	padding-bottom: 40px;
+}
+
+.contener div {
+	padding-right: 100px;
 }
