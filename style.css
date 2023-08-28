@@ -80,6 +80,7 @@ div.text h2 {
 
 div.text p {
 	color: rgba(255, 255, 255, 0.5);
+	font-family: nunito;
 }
 
 div.text a {
