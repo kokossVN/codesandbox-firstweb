@@ -1,7 +1,18 @@
-.row {
+* {
+	margin: 0;
+}
+.main-div {
+	padding-left: 30px;
+}
+h1.header {
+	text-align: center;
+}
+.contener {
 	display: flex;
-	flex-wrap: wrap;
+	padding-bottom: 40px;
 }
-.col {
-	margin-left: 10px;
+
+.contener div {
+	padding-right: 100px;
 }
+
