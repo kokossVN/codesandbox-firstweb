@@ -133,7 +133,9 @@
 .i4::before {
 	content: "\e014";
 }
-
+.im1 {
+	height: 1em;
+}
 .container > div h3 {
 	color: white;
 	font-size: 1.325rem;
