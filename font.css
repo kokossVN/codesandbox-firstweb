@@ -1,8 +1,8 @@
 @font-face {
-	font-family: varela ;
-	src: url(./font/varela.ttf);
+	src: url(./font/soursanpro.ttf);
+	font-family: sourcesanpro;
 }
 @font-face {
-	font-family: nunito;
-	src: url(./font/nunito.ttf);
+	src: url("./font/icons.ttf");
+	font-family: icons;
 }
