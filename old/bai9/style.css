@@ -1,0 +1,170 @@
+.flex-center {
+	padding: 7.5rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	font-family: sourcesanpro;
+	text-align: center;
+}
+
+.button{
+	text-decoration: none;
+	padding: 20px 40px;
+	border-radius: 0.375rem;
+}
+.head-banner {
+	padding: 8rem 0;
+	border: 1px solid cyan;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	/* background-color: yellow; */
+	/* bằng cách nào đó nó chỉ chiếm 50% div nên em tạm thới disable nó */
+	background-size: cover;
+	background: url("/asset/bg-masthead.jpg");
+	background-position: center;
+}
+
+.head-banner h1 {
+	font-size: 5rem;
+}
+
+.head-banner p {
+	font-size: calc(1.3rem + 0.6vw);
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -10px;
+	margin-bottom: 3rem;
+	font-family: sourcesanpro;
+}
+
+.head-banner a {
+	color: white;
+	background-color: #1D809F;
+}
+
+.about {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about h2 {
+	font-size: calc(1.325rem + 0.9vw);
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+
+.about p {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-bottom: 3rem;
+}
+
+.about p a{
+	color: cyan;
+}
+
+.about > a {
+	background-color: black;
+	color: white;
+}
+
+.services {
+	background-color: rgb(29, 128, 159);
+	text-align: center;
+}
+
+.services span {
+	text-transform: uppercase;
+	color: yellow;
+	font-weight: bold;
+	margin-bottom: -5px;
+}
+
+.services h2 {
+	font-size: 3rem;
+	color: white;
+	/* margin-top: -10px; */
+	margin-bottom: 3rem;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 5rem;
+}
+
+.container > div {
+	margin: auto;
+	width: 25%;
+	padding: 0 1.375rem;
+}
+
+.child-box {
+	width: 8rem;
+	height: 8rem;
+	margin: 0 auto 1.375rem;
+	padding: 20px;
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-items: center;
+}
+
+.child-box .ic {
+	font-family: icons;
+	display: flex;
+	margin: auto;
+	color:  rgb(29, 128, 159);
+	font-weight: 200;
+	font-size: 2rem;
+}
+
+.i1::before {
+	content: "\e010";
+}
+.i2::before {
+	content: "\e05f";
+}
+.i3::before {
+	content: "\e068";
+}
+.i4::before {
+	content: "\e014";
+}
+.im1 {
+	height: 1em;
+}
+.container > div h3 {
+	color: white;
+	font-size: 1.325rem;
+	margin-bottom: 0.5rem;
+}
+
+.container > div > p {
+	color: white;
+}
+
+.welcome {
+	padding: 15rem 0;
+	background-image: url("./asset/bg-callout.jpg");
+}
+
+.welcome h2 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	display: block;
+	max-width: 30rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.welcome a {
+	background-color: #1D809F;
+	color: white;
+}
+
+
