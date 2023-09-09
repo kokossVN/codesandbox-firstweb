@@ -22,7 +22,7 @@
 	/* background-color: yellow; */
 	/* bằng cách nào đó nó chỉ chiếm 50% div nên em tạm thới disable nó */
 	background-size: cover;
-	background: url("/asset/bg-masthead.jpg");
+	background: url("../../old/bai9/asset/bg-masthead.jpg");
 	background-position: center;
 }
 
