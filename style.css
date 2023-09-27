@@ -1,117 +1,65 @@
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Roboto;
-	font-weight: 400;
+}
+.container, .row, .box {
+	display: flex;
+	border: 1px solid;
 }
 
-.bai0 .contaier {
-	border: 1px solid ;
-	width: 200px;
-	height: 200px;
-	display: flex;
+.container{
+	width: 400px;
+	height: 400px;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 
-.bai0 .col {
-	height: calc(100% / 3);
-	border: 1px solid;
-	display: flex;
-	flex-direction: row;
-}
-
-.bai0 .col:nth-child(2) {
-	justify-content: space-between;
-}
-
-.bai0 .col:last-child {
-	justify-content: space-between;
-}
-
-.bai0 .c1 {
-	width: calc(100% /2 );
+.box {
+	width: 25%;
 	height: 100%;
-	display: flex;
-	flex-direction: row;
-}
-
-.bai0 .c1:last-child {
-	justify-content: flex-end;
-}
-
-.bai0 .c1 .box {
-	height: 100%;
-	width: calc(100% /5);
-	border: 1px solid;
-}
-
-.bai0 .box {
-	width: calc(100% / 10);
-	border: 1px solid;
-}
-
-.bai0 .b-box {
-	border: 1px solid;
-	width: calc(100% /5);
-}
-
-.bai0 .c1 .b-box {
-	width: calc(100% / 5  * 2);
-	border: 1px solid;
-}
-
-.bai0 .box,.b-box {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.bai0 .col:last-child .box:nth-child(2) {
-	order: 1;
-}
-
-.bai1 .contaier {
-	margin-top: 50px;
-	width: 100px;
-	height: 100px;
-}
-
-.bai1 .box {
-	width: 50%;
-	height: 50%;
-}
-
-.bai1 .col {
-	height: 50%;
-}
-
-.bai1 .col:last-child {
-	flex-direction: row-reverse;
-}
-
-.bai1 .box {
-	height: 100%;
-	width: 50%;
-}
-
-.bai2 .contaier {
-	margin-top: 50px;
-	width: 100px;
-	height: 100px;
-}
-
-.bai2 .box {
-	width: calc(100% / 3);
-}
-
-.bai1,.bai2 .col {
-	border: 0;
-}
-
-.bai2 .col:nth-child(2) {
+.row {
+	height: 25%;
 	justify-content: center;
 }
 
-.bai2 .col:last-child {
+.container .row:first-child, .row:last-child {
+	justify-content: space-between;
+}
+
+.bai2 {
+	flex-direction: column-reverse;
+}
+.bai2 .row:last-child {
 	justify-content: flex-end;
 }
+.bai2 .row:first-child {
+	justify-content: flex-start;
+}
+.bai2 .box {
+	width: 20%;
+	order: 3;
+}
+
+.bunny {
+	visibility: hidden;
+}
+.bai2 .row:nth-child(3) .box:last-child{
+	order: 0;
+}
+
+.row .bunny:last-child{
+	flex-grow: 2;
+}
+
+
+
+/* .bai2 .row:nth-child(3) */
+
+
+
+
+
