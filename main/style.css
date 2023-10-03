@@ -1,0 +1,105 @@
+html,
+body {
+  background-color: rgb(245, 247, 250);
+  font-family: "Montserrat", sans-serif;
+  color: #404e67;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container */
+
+.container {
+  padding: 48px 15px 16px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 16px;
+}
+
+/* my code start here... */
+.color-blue {
+  color: #02b6b9;
+}
+
+.color-orange {
+  color: #ffa87d;
+}
+
+.color-green {
+  color: #16d39a;
+}
+
+.color-pink {
+  color: #ff7588;
+}
+.warp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.box {
+  /* width: 20%; */
+  width: calc((100% - 90px) / 4);
+  background-color: #fff;
+  padding: 24px;
+  flex-grow: 1;
+}
+.box-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-content h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.left-content span {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.bx {
+  font-size: 48px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.process {
+  width: 100%;
+  height: 10px;
+  display: flex;
+}
+
+.bar {
+  border-radius: 25%;
+  flex-grow: 1;
+}
+.bar:first-child {
+  width: 30%;
+}
+
