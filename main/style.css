@@ -1,9 +1,9 @@
-html,
-body {
+html, body {
   background-color: rgb(245, 247, 250);
   font-family: "Montserrat", sans-serif;
   color: #404e67;
 }
+
 
 * {
   margin: 0;
@@ -12,7 +12,6 @@ body {
 }
 
 /* container */
-
 .container {
   padding: 48px 15px 16px;
 }
@@ -33,6 +32,7 @@ body {
 }
 
 /* my code start here... */
+
 .color-blue {
   color: #02b6b9;
 }
@@ -99,7 +99,3 @@ body {
   border-radius: 25%;
   flex-grow: 1;
 }
-.bar:first-child {
-  width: 30%;
-}
-
