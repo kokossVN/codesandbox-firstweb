@@ -51,6 +51,18 @@ i {
 .color-pink {
   color: #ff7588;
 }
+
+.yellow-card *{
+	background-color: #fff8e1;
+	border-color: #ffe082;
+	color: #ffa000;
+}
+.red-card *{
+	background-color: #ffebee;
+	border-color: #ef9a9a;
+	color: #d32f2f;
+}
+
 .warp {
   display: flex;
   flex-wrap: wrap;
@@ -59,7 +71,7 @@ i {
 }
 .box {
   background-color: #fff;
-  padding: 24px;
+	padding: 24px;
   flex-grow: 1;
 }
 
@@ -71,7 +83,6 @@ i {
   /* width: 20%; */
   width: calc((100% - 90px) / 4);
   background-color: #fff;
-  padding: 24px;
   flex-grow: 1;
 }
 .warp1 .box-content {
@@ -225,11 +236,11 @@ i {
 /* bai3 */
 
 .bai3 {
-	width: 800px;
-	margin: auto;
+	display: flex;
+	width: 600px;
 	height: max-content;
+	margin: auto;
 }
-
 
 .bai3 .row {
 	display: flex;
@@ -237,10 +248,53 @@ i {
 	gap: 30px;
 }
 
-.bai3 i {
-	font-size: 20px;
-}
 .bai3 .box {
-	width: calc(( 100% - 30px ) / 3);
-	
+	width: calc((100% - ( 30px * 2)) / 3);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100px;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.bai3 .box .head-content,.main-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid;
+}
+.bai3 .head-content {
+	padding: 0.675rem 0;
+	height: 20%;
+}
+
+.bai3 .main-content {
+	flex-direction: column-reverse;
+	display: flex;
+	flex-grow: 1;
+	border-top: 0;
+}
+
+.bai3 * h4,i,p {
+	background-color: #00000000 !important;
+}
+
+.bai3 i {
+	font-size: 36px;
+}
+.bai3 h4 {
+	font-size: 12px;
+}
+
+.row:first-child .head-content {
+	background-color: #e0f7fa;
+	color: #0097a7;
+	border-color: #80deea;
+}
+
+.row:first-child .main-content {
+	color: #0097a7;
+	background-color: rgb(245, 247, 250);
 }
