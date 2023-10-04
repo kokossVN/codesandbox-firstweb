@@ -36,6 +36,26 @@ i {
 	font-size: 48px;
 }
 
+.bg-blue {
+  background-color: #02b6b9;
+}
+
+.bg-orange {
+  background-color: #ffa87d;
+}
+
+.bg-green {
+  background-color: #16d39a;
+}
+
+.bg-pink {
+  background-color: #ff7588;
+}
+
+.bg-yellow {
+	background-color: #ffa000;
+}
+
 .color-blue {
   color: #02b6b9;
 }
@@ -122,13 +142,19 @@ i {
   width: 100%;
   height: 10px;
   display: flex;
+	margin-top: 1rem;
 }
 
-.warp1 .bar {
-  border-radius: 25%;
-  flex-grow: 1;
+.process div {
+	width: 30%;
 }
-
+.process div:first-child {
+	border-radius: 5px 0 0 5px;
+}
+.process div:last-child {
+	border-radius: 0 5px 5px 0;
+	flex-grow: 1;
+}
 
 .warp2 .box {
 	width: calc(( 100% - 30px)/2);
@@ -176,6 +202,7 @@ i {
 	flex-direction: column;
 	width: calc(( 100% - (30px * 4) ) / 5);
 	height: max-content;
+	border-radius: 3px;
 }
 
 .card .header {
@@ -203,7 +230,6 @@ i {
 }
 
 .tag {
-	background-color: cyan;
 	width: max-content;
 	padding: 0.275rem;
 	border-radius: 5px;
@@ -277,9 +303,6 @@ i {
 	border-top: 0;
 }
 
-.bai3 * h4,i,p {
-	background-color: #00000000 !important;
-}
 
 .bai3 i {
 	font-size: 36px;
