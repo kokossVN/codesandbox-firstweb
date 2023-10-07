@@ -140,7 +140,7 @@
 	position: absolute;
 	z-index: 100;
 	top: 113px;
-	left: 43%;
+	left: calc(43% + 1px);
 	width: 0;
 	height: 0;
 	border-style: solid;
