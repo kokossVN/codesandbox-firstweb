@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=UTF-8>
+	<meta name=viewport content=width=device-width, initial-scale=1.0>
+	<title>index</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="default.css">
+</head>
+<body>
+	<div class="fixed">
+		<header>
+				<nav>
+					<div class="left">
+						<a href="#" id="logo">
+							<img src="./assets/nav/_logo.svg">
+						</a>
+					</div>
+					<div class="right">
+						<div>
+						<a href="#" class="nav-list">Marketplace</a>
+						<a href="#" class="nav-list">Rankings</a>
+						<a href="#" class="nav-list">
+							Connect a wallet
+						</a>
+						</div>
+						<a href="#" class="nav-login">
+							<img src="assets/nav/User.svg">
+							<span>Sign Up</span>
+						</a>
+					</div>
+				</nav>
+				<div class="banner">
+					<div class="left">
+						<h1>Discover
+							<br> Digigtal Art & Collect NFTs
+						</h1>
+
+					</div>
+					<div class="right">
+						image
+					</div>
+				</div>
+		</header>	
+	</div>
+</body>
+</html>

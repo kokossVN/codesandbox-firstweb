@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	/* colors */
+
+	--Bg: #2B2B2B;
+	--Bg2: #3B3B3B;
+	--Bg3: #858584;
+	--text: #ffffff;
+	--Btn: #A259FF;
+	--Grad-1: linear-gradient(128deg, #A259FF 49.75%, #377DF7 136.56%);
+	--Grad-2: linear-gradient(101deg, #A259FF 13.57%, #FF6250 97.65%);
+
+}
+
+@font-face {
+	src: url("./assets/fonts/SpaceMono-Regular.ttf");
+	font-family: spacemono;
+}
+@font-face {
+	src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+	font-family: worksans;
+}
+
+
+h1 {
+	font-size: 67px;
+}
+h2 {
+	font-size: 51px;
+}
+h3 {
+	font-size: 38px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 22px;
+}
+p,a,span {
+	font-size: 16px;
+}
+.cap {
+	font-size: 12px;
+}

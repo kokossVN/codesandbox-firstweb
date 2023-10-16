@@ -1,0 +1,131 @@
+.screen-fix {
+	max-width: 1250px;
+	min-width: 960px;
+	margin: auto;
+}
+
+body {
+	background-color: var(--Bg);
+}
+
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 50px;
+	align-items: center;
+}
+
+nav .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.avatar {
+	width: 25px;
+	height: 25px;
+}
+
+nav .right > * {
+	padding: 0 20px;
+}
+
+#login-btn {
+	padding: 19px 30px;
+	border-radius: 20px;
+	background-color: var(--Btn) ;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	gap: 12px;
+}
+
+nav * {
+	color: var(--text);
+	text-decoration: none;
+	font-family: worksans;
+	font-weight: 600;
+	text-align: center;
+	line-height: 140%;
+}
+
+header, section {
+	padding: 80px 115px;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	color: white;
+}
+header * {
+	font-family: worksans;
+}
+
+header h1 {
+	font-size: 67px;
+	font-weight: 600;
+	line-height: 110%;
+}
+
+header p {
+	margin-top: 20px;
+	font-size: 22px;
+	line-height: 160%;
+	text-transform: capitalize;
+}
+
+
+#start-btn {
+	width: max-content;
+	display: flex;
+	padding: 19px 50px;
+	background-color: var(--Btn);
+	border-radius: 20px;
+	gap: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 140%;
+	margin: 30px 0;
+}
+
+
+.summary {
+	display: flex;
+	gap: 30px;
+}
+
+.summary h2 {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 140%;
+	text-transform: capitalize;
+}
+
+.summary p {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 160%;
+	text-transform: capitalize;
+}
+
+.img-card {
+	background-color: var(--Bg2);
+	border-radius: 20px;
+}
+
+.card-content {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
