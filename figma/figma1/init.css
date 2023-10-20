@@ -1,0 +1,76 @@
+body {
+	background-color: var(--Bg);
+	font-family: worksans;
+}
+
+header, section {
+	padding: 80px 115px;
+	width: 100%;
+	color: white;
+	display: flex;
+}
+
+footer {
+	padding: 40px 115px;
+	width: 100%;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+/* header / nav  */
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 50px;
+	align-items: center;
+}
+
+nav .right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-direction: row;
+}
+
+.avatar {
+	width: 25px;
+	height: 25px;
+}
+
+nav .right > * {
+	padding: 0 20px;
+}
+
+#login-btn {
+	padding: 19px 30px;
+	border-radius: 20px;
+	background-color: var(--Btn) ;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	gap: 12px;
+}
+
+nav * {
+	color: var(--text);
+	text-decoration: none;
+	font-weight: 600;
+	text-align: center;
+	line-height: 140%;
+}
+
+
+
+
+footer .info .content {
+	width: 250px;
+}
+
+
+footer .content img {
+	padding: 30px;
+}
