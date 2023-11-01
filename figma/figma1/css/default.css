@@ -29,11 +29,11 @@ ul * {
 }
 
 @font-face {
-	src: url("./assets/fonts/SpaceMono-Regular.ttf");
+	src: url("../assets/fonts/SpaceMono-Regular.ttf");
 	font-family: spacemono;
 }
 @font-face {
-	src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+	src: url("../assets/fonts/WorkSans-VariableFont_wght.ttf");
 	font-family: worksans;
 }
 
